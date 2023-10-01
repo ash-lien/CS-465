@@ -57,4 +57,4 @@ mongoose.connection.on('connected', () => {
 
   connect();
 
-  require('./travlr');
+  require('./models/travlr');
