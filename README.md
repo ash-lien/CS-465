@@ -1,1 +1,9 @@
-# CS-465
+The frontend development used in the full stack project used Express HTML, JavaScript, and single-page application. JavaScript was the main programming languaged used for both the client-facing page and the SPA. The SPA was created for admin purposes so has the functionality of adding, editing, and removing the trips. Express  HTML was used in the client-facing page since it is static and cannot interact with backend databases. JavaScript was used to add the dynamic elements to the web app that interacted with MongoDB.
+The backend used a NoSQL MongoDB database for ease and scalability purposes.
+
+JSON is JavaScript Object Notation. It is a data-interchange format which allows JavaScript to create objects from the data. It ties together the frontend and backend development pieces because the data can be stored once, but can be used a variety of ways using JSON.
+An instance during the full stack process where the code was refactored to improve functionality and efficiencies was moving away from static HTML and utilizing JSON to create a way to pull the trip information from the database. This is beneficial since it makes it so the code of the client-facing page does not need to be changed every time there is a change with the trip information. Instead, it pulls the information from the database and populates it on the client-facing web page.
+
+The client-facing web page was tested by going to the API endpoint using the localhost web address and looking to see if everything loaded correctly or if there were any errors. Postman was used to test HTTP requests. The HTTP methods that were used were GET, PUT, POST, and DELETE. These endpoints were protected since they interact with the database. Creating an authorized user with login information is a layer of security to prevent unauthorized users to be able to delete, edit, or add trips.
+
+This course helped me in reaching my professional goals since I learned a lot about MEAN Stack, frontend and backend  development, and the use of SPA. I also further developed my skills with JavaScript since it was the main programming language used during this project.
